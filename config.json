@@ -1,0 +1,21 @@
+{
+  "endpoint_url": "https://hsa4unvwjc.execute-api.eu-north-1.amazonaws.com/dev",
+
+  "sensors": [
+    {
+      "type": "temperature",
+      "frequency_ms": 50,
+      "location": { "lat": 49.8397, "lon": 24.0297 }
+    },
+    {
+      "type": "humidity",
+      "frequency_ms": 80,
+      "location": { "lat": 49.8401, "lon": 24.0302 }
+    },
+    {
+      "type": "light",
+      "frequency_ms": 100,
+      "location": { "lat": 49.8389, "lon": 24.0285 }
+    }
+  ]
+}
